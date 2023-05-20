@@ -1,0 +1,21 @@
+.course-item-container {
+  display: flex;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  align-items: center;
+  min-width: 250px;
+}
+.course-img {
+  height: 70px;
+  width: 70px;
+  margin-right: 8px;
+}
+.course-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 30px;
+}
+.linked-item {
+  text-decoration: none;
+}

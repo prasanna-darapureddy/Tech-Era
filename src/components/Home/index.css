@@ -1,0 +1,44 @@
+.home-bg-container {
+  background-color: #fff;
+  padding: 30px 50px;
+}
+.corses-main-heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.course-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+.loader-container,
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.failure-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+.failure-text {
+  color: #475569;
+  font-family: 'Roboto';
+}
+.retry-button {
+  color: #fff;
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+  width: 70px;
+  cursor: pointer;
+}
